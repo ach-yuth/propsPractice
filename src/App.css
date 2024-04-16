@@ -1,4 +1,5 @@
-.container {
+.container,
+.counter {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,12 +25,7 @@
 .greeting p {
   text-align: center;
 }
-.counter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .buttonFromCounter {
   display: flex;
   gap: 3px;
