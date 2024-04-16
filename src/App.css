@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.product {
+  border: 1px solid black;
+  text-align: center;
+  margin: 9px;
+  padding: 6px;
+  text-transform: capitalize;
+}
