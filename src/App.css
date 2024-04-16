@@ -1,6 +1,8 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .product {
   border: 1px solid black;
@@ -8,4 +10,27 @@
   margin: 9px;
   padding: 6px;
   text-transform: capitalize;
+  width: 200px;
+}
+.greeting button {
+  width: 100%;
+  background-color: violet;
+  border: none;
+  padding: 6px;
+  box-sizing: border-box;
+  margin: 9px;
+  border-radius: 3px;
+}
+.greeting p {
+  text-align: center;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonFromCounter {
+  display: flex;
+  gap: 3px;
 }
